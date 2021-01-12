@@ -1,7 +1,7 @@
 {
   "name": "gen-ts-boilerplate",
   "description": "generate typescript project boilerplate.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "bin": {
     "ts-gen": "./bin/ts-gen.js"
   },
@@ -9,6 +9,10 @@
     "colorette": "^1.2.1",
     "fs-extra": "^9.0.1",
     "prompts": "^2.4.0"
+  },
+  "git": {
+    "url": "git@github.com:nightink/gen-ts-boilerplate.git",
+    "type": "git"
   },
   "files": [
     "bin",

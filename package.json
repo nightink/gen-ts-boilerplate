@@ -1,7 +1,7 @@
 {
   "name": "gen-ts-boilerplate",
   "description": "generate typescript project boilerplate.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": {
     "ts-gen": "./bin/ts-gen.js"
   },

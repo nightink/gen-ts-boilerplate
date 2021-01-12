@@ -40,7 +40,11 @@ const NAME_RE = /^@?[a-zA-Z0-9\/\-_]*$/;
     await fs.writeJSON(pkgPath, pkg, { spaces: 2 });
 
     // npm install
-    await executable('npm', ['install'], { cwd: projDir, stdio: 'inherit' });
+    await executable('npm', ['install'], {
+      cwd: projDir,
+      env: process.env,
+      stdio: 'inherit',
+    });
 
     console.log(color.green('done.'));
   } catch (err) {

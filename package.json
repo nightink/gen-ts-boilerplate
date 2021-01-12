@@ -14,6 +14,10 @@
     "url": "git@github.com:nightink/gen-ts-boilerplate.git",
     "type": "git"
   },
+  "bugs": {
+    "url": "https://github.com/nightink/gen-ts-boilerplate/issues"
+  },
+  "homepage": "https://github.com/nightink/gen-ts-boilerplate",
   "files": [
     "bin",
     "boilerplate"

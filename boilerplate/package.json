@@ -1,0 +1,24 @@
+{
+  "name": "project-name",
+  "version": "0.0.1",
+  "description": "project-description",
+  "scripts": {
+    "build": "tsc",
+    "build:w": "tsc -w",
+    "lint": "eslint src test",
+    "lint:fix": "npm run lint -- --fix",
+    "test:raw": "mocha --require espower-typescript/guess --check-leaks -t 5000 test/*.test.ts",
+    "test": "npm run build && npm run test:raw"
+  },
+  "devDependencies": {
+    "@types/mocha": "^8.2.0",
+    "@types/node": "^14.14.20",
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
+    "eslint": "^7.17.0",
+    "espower-typescript": "^9.0.2",
+    "mocha": "^8.2.1",
+    "power-assert": "^1.6.1",
+    "typescript": "^4.1.3"
+  }
+}

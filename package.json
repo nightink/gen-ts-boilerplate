@@ -1,0 +1,17 @@
+{
+  "name": "gen-ts-boilerplate",
+  "description": "generate typescript project boilerplate.",
+  "version": "0.1.0",
+  "bin": {
+    "ts-gen": "./bin/ts-gen.js"
+  },
+  "dependencies": {
+    "colorette": "^1.2.1",
+    "fs-extra": "^9.0.1",
+    "prompts": "^2.4.0"
+  },
+  "files": [
+    "bin",
+    "boilerplate"
+  ]
+}
